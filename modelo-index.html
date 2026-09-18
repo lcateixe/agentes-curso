@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{TITULO}}</title>
+  <style>
+    :root {
+      --fundo: #fafaf7;
+      --texto: #1f2328;
+      --suave: #5b6470;
+      --destaque: #1a5fb4;
+      --linha: #e2e2dc;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --fundo: #16181c;
+        --texto: #e6e6e3;
+        --suave: #9aa3ad;
+        --destaque: #78aeff;
+        --linha: #2c3036;
+      }
+    }
+    body {
+      margin: 0;
+      background: var(--fundo);
+      color: var(--texto);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    main, footer { max-width: 680px; margin: 0 auto; padding: 0 16px; }
+    header { border-bottom: 1px solid var(--linha); margin-bottom: 24px; padding: 32px 0 16px; }
+    h1 { font-size: 1.8rem; margin: 0 0 4px; line-height: 1.2; }
+    h2 { font-size: 1.25rem; margin-top: 32px; }
+    .data { color: var(--suave); font-size: 0.95rem; margin: 0; }
+    a { color: var(--destaque); }
+    nav { border-top: 1px solid var(--linha); margin-top: 40px; padding-top: 16px; }
+    nav h2 { font-size: 1rem; color: var(--suave); }
+    footer { border-top: 1px solid var(--linha); margin-top: 40px; padding-top: 16px; padding-bottom: 32px; color: var(--suave); font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>{{TITULO}}</h1>
+      <p class="data">{{DATA}}</p>
+    </header>
+
+    <article>
+{{BRIEFING}}
+    </article>
+
+    <nav>
+      <h2>Dias anteriores</h2>
+{{ANTERIORES}}
+    </nav>
+  </main>
+
+  <footer>
+    <p>Briefing gerado por um time de agentes de IA a partir de fontes públicas. Toda afirmação tem link para a fonte original. Confira a fonte antes de tomar qualquer decisão.</p>
+  </footer>
+</body>
+</html>

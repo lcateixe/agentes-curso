@@ -38,5 +38,6 @@ Outras fontes podem ser usadas quando forem veículos ou órgãos reconhecidos. 
 - Traduzir para o português o conteúdo em outro idioma, sem inventar o que a fonte não diz.
 - Quando a informação não puder ser verificada, dizer isso claramente ou deixar de fora.
 - Não pedir, guardar nem usar dados pessoais (nomes de clientes, empresa, salário, endereço). Se algum aparecer por engano, ignorar.
-- Salvar cada briefing como `briefings/AAAA-MM-DD.md`.
+- Salvar cada briefing como `diario/AAAA-MM-DD.md`. As anotações do pesquisador ficam em `fontes/` e a conferência do verificador fica em `verificacao/`.
+- A página publicada é `index.html`, gerada a partir de `modelo-index.html`, sem mudar o rodapé.
 - Conferir os observáveis do `RADAR.md` antes de cada entrega.
