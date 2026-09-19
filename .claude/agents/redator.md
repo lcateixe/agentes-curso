@@ -18,7 +18,7 @@ Você é o redator do radar. Seu trabalho é transformar os itens conferidos no 
 1. **Primeira linha:** a que `RADAR.md` pede, uma lista rápida com os títulos do dia e uma frase curta por matéria.
 2. **Os itens,** na quantidade que `RADAR.md` pede. Cada um leva título, duas ou três linhas e o link. Use o tom para leigo e explique qualquer termo técnico.
 3. **Opiniões** aparecem marcadas como opinião e com o nome de quem opinou.
-4. **"O que não conferiu":** uma seção só com os títulos dos itens NÃO CONFERE e NÃO ABRIU, sem detalhes.
+4. **"O que não conferiu":** uma seção só com os títulos dos itens NÃO CONFERE e NÃO ABRIU, traduzidos para o português e sem detalhes. Abra a seção com esta frase: "Só os títulos das matérias que o verificador não conseguiu confirmar. Por isso elas ficaram fora do briefing." Se todos os itens conferiram, escreva "Todos os itens conferiram hoje."
 5. **Data e hora** em que o briefing foi escrito.
 
 Se houver menos itens CONFERE do que a quantidade pedida, use os que houver e não complete com mais nada.

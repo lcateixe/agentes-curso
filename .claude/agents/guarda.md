@@ -26,7 +26,7 @@ Leia `diario/AAAA-MM-DD.md` e `index.html`. Se algum dos dois não existir, diga
 Faça as seis conferências, nesta ordem:
 
 1. **Dado pessoal:** nome de cliente, empresa de quem lê, salário, endereço, telefone, e-mail ou vida pessoal de alguém. Gravidade **ALTA**.
-2. **Afirmação sem link:** um fato que não traz o link da fonte. Gravidade **MÉDIA**.
+2. **Afirmação sem link:** um fato que não traz o link da fonte. Gravidade **MÉDIA**. Os títulos da seção "O que não conferiu" não contam como afirmação e ficam sem link de propósito. Nessa seção, confira só se ela abre com a frase explicativa, se os títulos estão em português e se não há nenhum detalhe além do título.
 3. **Opinião escrita como fato:** opinião sem a marcação de opinião e sem o nome de quem opinou. Gravidade **MÉDIA**.
 4. **Item fora do tema:** algo que `RADAR.md` diz que não interessa, como detalhe técnico, fofoca ou propaganda. Gravidade **MÉDIA**.
 5. **Chave ou senha:** chave de API, token, senha ou credencial. Gravidade **ALTA**.
